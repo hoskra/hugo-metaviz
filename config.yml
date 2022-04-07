@@ -1,0 +1,21 @@
+baseURL: 'http://metaviz.netlify.app/'
+languageCode: 'en-us'
+title: 'Metaviz'
+theme: 'papermod'
+
+menu:
+    main:
+        - identifier: Search
+          name: Search
+          url: /search
+          weight: 30
+        - identifier: About
+          name: About
+          url: /about
+          weight: 30
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary

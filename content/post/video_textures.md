@@ -1,7 +1,5 @@
 +++
-author = "hoskra"
 title = "Video Textures"
-date = "2022-04-07"
 description = "Video Textures project"
 header_image = "images/0_37.png"
 +++

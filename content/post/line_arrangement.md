@@ -1,8 +1,6 @@
 +++
-author = "hoskra"
 title = "Line Arrangement"
-date = "2019-04-07"
-description = "Video Textures project"
+description = "Line Arrangement project description"
 header_image = "images/arrangement.png"
 +++
 

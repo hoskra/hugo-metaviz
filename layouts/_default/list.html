@@ -43,7 +43,7 @@
 
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
+{{- $class = "post-entry" }}
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
@@ -59,8 +59,8 @@
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
   <section class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
     <div class="item">
+      <p>{{ .Description | plainify | htmlUnescape }}{{ if .Truncated }}{{ end }}</p>
       <img id="thumbnail" src="{{ .Params.header_image }}" alt="{{ .Title }}" />
     </div>
   </section>
