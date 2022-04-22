@@ -6,8 +6,9 @@ header_image = "images/crown_placeholder.jpg"
 
 <!--more-->
 
-See [version1](https://metaviz-code.netlify.app/crown-shyness2.html).
+See [version1](https://metaviz-code.netlify.app/src/crown-shyness/2.html).
 
+See [version2](https://metaviz-code.netlify.app/src/crown-shyness/6/index.html).
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse sagittis ultrices augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Nullam eget nisl. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Vestibulum fermentum tortor id mi. Donec vitae arcu. Nulla non arcu lacinia neque faucibus fringilla. Aliquam erat volutpat. Aliquam erat volutpat. Quisque tincidunt scelerisque libero. Aliquam erat volutpat. Integer lacinia.
 

@@ -1,7 +1,7 @@
 +++
 title = "Video Textures"
 description = "Video Textures project"
-header_image = "images/0_37.png"
+header_image = "images/vt2.png"
 +++
 
 Video Textures is new type of medium.
