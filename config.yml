@@ -1,4 +1,4 @@
-baseURL: 'http://metaviz.netlify.app/'
+baseURL: 'https://metaviz.netlify.app/'
 languageCode: 'en-us'
 title: 'Metaviz'
 theme: 'papermod'
