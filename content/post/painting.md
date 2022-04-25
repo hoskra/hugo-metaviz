@@ -11,3 +11,5 @@ Painting
 
 
 [Painting](https://metaviz-code.netlify.app/src/painting.html)
+
+![Example image](/images/7.gif)
