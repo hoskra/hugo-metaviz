@@ -22,9 +22,9 @@ This effect was simulated with Voronoi tessellation. Visualization was implement
 ### Versions
 
 
-| [version2](https://metaviz-code.netlify.app/src/crown-shyness/2.html) {{< figure src="/images/2.gif" alt="dwarf" width="300px" class="content-img">}} |  [version3](https://metaviz-code.netlify.app/src/crown-shyness/5.html){{< figure src="/images/3.gif" alt="dwarf" width="300px" class="content-img">}}  |
+| [version2](https://metaviz-code.netlify.app/src/crown-shyness/2.html) {{< figure src="/images/cs/2.gif" alt="dwarf" width="300px" class="content-img">}} |  [version3](https://metaviz-code.netlify.app/src/crown-shyness/5.html){{< figure src="/images/cs/3.gif" alt="dwarf" width="300px" class="content-img">}}  |
 |---|---|
-| [version4](https://metaviz-code.netlify.app/src/crown-shyness/6.html){{< figure src="/images/4.gif" alt="dwarf" width="300px" class="content-img">}} | [version5](https://metaviz-code.netlify.app/src/crown-shyness/7/index.html){{< figure src="/images/5.gif" alt="dwarf" width="300px" class="content-img">}} |
+| [version4](https://metaviz-code.netlify.app/src/crown-shyness/6.html){{< figure src="/images/cs/4.gif" alt="dwarf" width="300px" class="content-img">}} | [version5](https://metaviz-code.netlify.app/src/crown-shyness/7/index.html){{< figure src="/images/cs/5.gif" alt="dwarf" width="300px" class="content-img">}} |
 
 
 

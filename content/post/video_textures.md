@@ -19,26 +19,26 @@ It is deployed to [Netlify](https://vt-player.netlify.app)
 
 |        | No Crossfading | Crossfading | Super Crossfading |
 |--------|----------------|-------------|-------------------|
-| Linear |       {{< figure src="/images/stairs1_linear.gif" alt="Captured gif example" width="200px" class="content-img">}}          |      -      |         -         |
-| Random |       {{< figure src="/images/stairs1_random.gif" alt="Captured gif example" width="200px" class="content-img">}}         |   {{< figure src="/images/stairs1_random_cross.gif" alt="Captured gif example" width="200px" class="content-img">}}  |   {{< figure src="/images/stairs1_random_super_cross.gif" alt="Captured gif example" width="200px" class="content-img">}}  |
+| Linear |       {{< figure src="/images/vt/stairs1_linear.gif" alt="Captured gif example" width="200px" class="content-img">}}          |      -      |         -         |
+| Random |       {{< figure src="/images/vt/stairs1_random.gif" alt="Captured gif example" width="200px" class="content-img">}}         |   {{< figure src="/images/vt/stairs1_random_cross.gif" alt="Captured gif example" width="200px" class="content-img">}}  |   {{< figure src="/images/vt/stairs1_random_super_cross.gif" alt="Captured gif example" width="200px" class="content-img">}}  |
 
 
 |        | No Crossfading | Crossfading | Super Crossfading |
 |--------|----------------|-------------|-------------------|
-| Linear |       {{< figure src="/images/stairs2_linear.gif" alt="Captured gif example" width="200px" class="content-img">}}          |      -      |         -         |
-| Random |       {{< figure src="/images/stairs2_random.gif" alt="Captured gif example" width="200px" class="content-img">}}         |   {{< figure src="/images/stairs2_random_cross.gif" alt="Captured gif example" width="200px" class="content-img">}}  |   {{< figure src="/images/stairs2_random_super_cross.gif" alt="Captured gif example" width="200px" class="content-img">}}  |
+| Linear |       {{< figure src="/images/vt/stairs2_linear.gif" alt="Captured gif example" width="200px" class="content-img">}}          |      -      |         -         |
+| Random |       {{< figure src="/images/vt/stairs2_random.gif" alt="Captured gif example" width="200px" class="content-img">}}         |   {{< figure src="/images/vt/stairs2_random_cross.gif" alt="Captured gif example" width="200px" class="content-img">}}  |   {{< figure src="/images/vt/stairs2_random_super_cross.gif" alt="Captured gif example" width="200px" class="content-img">}}  |
 
 
 |        | No Crossfading | Crossfading | Super Crossfading |
 |--------|----------------|-------------|-------------------|
-| Linear |       {{< figure src="/images/ct1.gif" alt="Captured gif example" width="200px" class="content-img">}}          |      -      |         -         |
-| Random |       {{< figure src="/images/ct2.gif" alt="Captured gif example" width="200px" class="content-img">}}         |   {{< figure src="/images/ct3.gif" alt="Captured gif example" width="200px" class="content-img">}}  |   {{< figure src="/images/ct4.gif" alt="Captured gif example" width="200px" class="content-img">}}  |
+| Linear |       {{< figure src="/images/vt/ct1.gif" alt="Captured gif example" width="200px" class="content-img">}}          |      -      |         -         |
+| Random |       {{< figure src="/images/vt/ct2.gif" alt="Captured gif example" width="200px" class="content-img">}}         |   {{< figure src="/images/vt/ct3.gif" alt="Captured gif example" width="200px" class="content-img">}}  |   {{< figure src="/images/vt/ct4.gif" alt="Captured gif example" width="200px" class="content-img">}}  |
 
 
 
 ## Similarity matrices
 
-{{< figure src="/images/0_37.png" alt="Similarity matrices" width="450px" class="content-img-center">}}
+{{< figure src="/images/vt/0_37.png" alt="Similarity matrices" width="450px" class="content-img-center">}}
 
 
 [^1]: Schödl, Arno, et al. "Video textures." Proceedings of the 27th annual conference on Computer graphics and interactive techniques. 2000. [link](https://www.cc.gatech.edu/gvu/perception/projects/videotexture/SIGGRAPH2000/index.htm

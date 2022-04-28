@@ -3,16 +3,117 @@ title = "Kensuke Koike"
 description = "Kensuke Koike inspired visualizations"
 header_image = "images/penrose.png"
 math = true
+showToc = true
 +++
 
 <!--more-->
 
 Visualizations are inspired by brilliant japanese artist [Kensuke Koike](https://kensukekoike.com). Two visualizations were made using web technoliges. This text is containing an explanation how was those visualizations made. An image used is from *Johann (Hans) Beckmann*, the name of the painting is *Im Inntal*.
 
+## The visualizations
+
+
 | Circles                                                                                                                                                                         | Penrose                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | First visualization is made with [p5.js](https://p5js.org/). Online editor with source code is available at [p5 editor](https://editor.p5js.org/hoskra/sketches/EIpGW_LYt). | Another visualization was made with [three.js](https://threejs.org/). Live version reacting to mouse movement is available [here](https://metaviz-code.netlify.app/src/kensukekoike/penrose.html), online code editor [here](https://codesandbox.io/s/sharp-kare-9tzyfp). |
 | {{< figure src="/images/kensok/kk.png" alt="Circles" width="300px" class="content-img-center">}}                                                                                | {{< figure src="/images/kensok/6.gif" alt="Penrose triangle" width="300px" class="content-img-center">}}                                                                                           |                                                                                     |
+
+### The inspiration
+
+Kensuke Koike is famous for creative manipulations with real life printed photographs (especially black and white). His work can be found for example on [Instagram](https://www.instagram.com/kensukekoike/). On the following pictures, the artworks that inspired the visualizations are shown.
+
+
+|   |   |   |
+|---|---|---|
+|{{< figure src="/images/kensok/original.png" alt="Kensuke Koike"  height="250px" class="content-img-center" >}}|  {{< figure src="/images/kensok/original1.png" alt="Kensuke Koike" height="250px" class="content-img-center" >}}|   {{< figure src="/images/kensok/original2.png" alt="Kensuke Koike" height="250px" class="content-img-center" >}}|
+
+
+## Circles
+
+In this example, the color of each square is defined by its distance from the center.
+If the $[x,y]$ coordinate is greater than given radius $r$, square is colored grey. This condition in math terms looks like this: $x^2+y^2 > r^2$.
+
+{{< figure src="/images/kensok/c2.png" alt="Circle" width="200px" class="content-img-center">}}
+
+This principle is used for _cutting off_ the alpha channel of an image, resulting in image drawn with given radius.
+
+{{< figure src="/images/kensok/c3.png" alt="Circle" width="200px" class="content-img-center">}}
+
+### The code
+
+The image is preloaded using built-in `preload()` function. This function is called before `setup()` function. In `setup()` function, `noLoop()` is called. This makes, the `draw()` function called just once.[^2]
+
+  [^2]: In case of this visualization, it is important to call `noLoop()`, because it is computationally expensive.
+
+
+```js
+let WIDTH = 400;
+
+function preload() {  img = loadImage('img/2.jpg'); }
+function setup() {
+  createCanvas(WIDTH, WIDTH);
+  noLoop();
+}
+
+```
+
+Each pixel has four values. Red, green, blue and alpha (this channel we want to manipulate). Values of pixels are stored in 1D array. Function `drawImage()` is checking each pixel and if it is greater than given radius, it sets the alpha channel to zero. Then it draws the image.
+
+```js
+function drawCircle(radius) {
+  for (let y = -WIDTH/2; y < WIDTH/2; y++) {
+    for (let x = -WIDTH/2; x < WIDTH/2; x++) {
+
+      // index of pixel is defined by x and y coordinates
+      let index = x+WIDTH/2 + (y+WIDTH/2) * WIDTH
+
+      // for every pixel, 4 values are stored so index needs to multiply index by 4
+      index *= 4;
+
+      // if the distance from center is greater than radius set alpha to 0
+      if(pow(x,2)+pow(y,2) > pow(radius, 2)) {
+        img.pixels[index+3] = 0;
+      }
+    }
+  }
+
+  // if we manipulate image pixels, updatePixels() has to be called
+  img.updatePixels();
+  image(img, -WIDTH/2, -WIDTH/2);
+}
+```
+
+Then `draw()` function is called. In it, the canvas is shifted so that the origin is located in the middle. In default *p5.js* coordinate system, the $[0,0]$ is located in the top left corner. Then the background image is drawn.
+
+Image circles are then drawn within a for loop. For each iteration, the radius is increased by 30. In each iteration, the canvas is rotated by 12 degrees using the `rotate()` function. Degrees are converted to radians using `radians()` function.
+
+```js
+function draw() {
+  // loadPixels() has to be called before drawing an image
+  img.loadPixels();
+
+  translate(W/2, W/2);
+  image(img, -W/2, -W/2);
+  img.updatePixels();
+
+  for(i=W-330; i>0; i-=30) {
+    rotate(radians(12));
+    drawCircle(i);
+  }
+}
+```
+
+The result and code is available at [p5 editor](https://editor.p5js.org/hoskra/sketches/EIpGW_LYt). Another visualization is trying to take a diffrent approach.
+
+<!-- into an image was done manipulating the alpha channel of each pixel of the image. Each pixel is represented as an array consisting of four values. Color is determined by red, green and blue values. Alpha is used to determine the opacity of the pixel.
+
+$$p = [R,G,B,A]$$
+$$R, B, G \in <0,255>$$
+$$A \in <0, 1>$$ -->
+
+
+
+
 
 
 ## Penrose triangle
@@ -127,5 +228,6 @@ function onDocumentMouseMove(event) {
 }
 ```
 
+The resulting visualization and online code editor can be found [here](https://codesandbox.io/s/sharp-kare-9tzyfp).
 
 [^1]: This definition is using p5.js coordinate system, which has positive values in the right down corner.

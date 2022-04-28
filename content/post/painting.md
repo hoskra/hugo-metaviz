@@ -9,7 +9,7 @@ header_image = "images/painting.png"
 Visualization is made with [p5.js](https://p5js.org/). Code generating this visualization is available at [p5 editor](https://editor.p5js.org/hoskra/sketches/lHnYDkjbv). Live version reacting to mouse movement is available [here](https://metaviz-code.netlify.app/src/painting.html).
 
 
-{{< figure src="/images/7.gif" alt="Painting" width="450px" class="content-img-center">}}
+{{< figure src="/images/painting/7.gif" alt="Painting" width="450px" class="content-img-center">}}
 
 ## Mona Lisa Effect
 
