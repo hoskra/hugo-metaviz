@@ -15,8 +15,11 @@ Visualizations are inspired by brilliant japanese artist [Kensuke Koike](https:/
 
 | Circles                                                                                                                                                                         | Penrose                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| First visualization is made with [p5.js](https://p5js.org/). Online editor with source code is available at [p5 editor](https://editor.p5js.org/hoskra/sketches/EIpGW_LYt). | Another visualization was made with [three.js](https://threejs.org/). Live version reacting to mouse movement is available [here](https://metaviz-code.netlify.app/src/kensukekoike/penrose.html), online code editor [here](https://codesandbox.io/s/sharp-kare-9tzyfp). |
-| {{< figure src="/images/kensok/kk.png" alt="Circles" width="300px" class="content-img-center">}}                                                                                | {{< figure src="/images/kensok/6.gif" alt="Penrose triangle" width="300px" class="content-img-center">}}                                                                                           |                                                                                     |
+| Visualization *Circles* was made with [p5.js](https://p5js.org/). | Visualization *Penrose* was made with [three.js](https://threejs.org/).|
+| {{< figure src="/images/kensok/kk.png" alt="Circles" width="300px" class="content-img-center">}}                                                                                | {{< figure src="/images/kensok/6.gif" alt="Penrose triangle" width="300px" class="content-img-center">}}
+| [Live version](https://metaviz-code.netlify.app/src/kensukekoike/kensukekoike.html) | [Live version](https://metaviz-code.netlify.app/src/kensukekoike/penrose.html) |
+|[Online editor](https://editor.p5js.org/hoskra/sketches/EIpGW_LYt) | [Online editor](https://codesandbox.io/s/sharp-kare-9tzyfp) |
+
 
 ### The inspiration
 
@@ -127,7 +130,9 @@ The idea here is to divide the penrose triangle into three shapes (yellow, cyan,
 
 {{< figure src="/images/kensok/kk1_.png" alt="Penrose triangle" width="250px" class="content-img-center">}}
 
-First, we define the height of the triangle. The sum of all angles in any thiangle is 180 degrees. This triangle is equilateral and therefore all the angles has $180/3 = 60$ degrees. Using goniometric functions we express the height using a side of the triangle:
+First, we define the height of the triangle.[^3] The sum of all angles in any thiangle is 180 degrees. This triangle is equilateral and therefore all the angles has $180/3 = 60$ degrees. Using goniometric functions we express the height using a side of the triangle:
+
+[^3]: Font used in visual materials is [Victor Mono](https://rubjo.github.io/victor-mono/).
 
 $$ tan(60\degree ) = \frac{h}{s/2} $$
 $$ h = \frac{s}{2} * tan(60\degree ) $$
