@@ -22,7 +22,7 @@ Another explanation is presented for example in following video.
 
 ## The result
 
-Live version of the Video texture player is avalable [here](https://vt-player.netlify.app), with list of all used examples including [clock](https://vt-player.netlify.app/clock.html) used in original paper [^1].
+Live version of the Video texture player is available [here](https://vt-player.netlify.app), with list of all used examples including [clock](https://vt-player.netlify.app/clock.html) used in original paper [^1].
 
 
 ### DynTex database
