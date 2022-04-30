@@ -17,11 +17,18 @@ Crown shyness[^1] is a phenomenon observed in some tree species, in which the cr
 
 ## Implementation
 
-This effect was simulated with Voronoi tessellation. Visualization was implemented in [p5.js](https://p5js.org/) and [three.js](https://threejs.org/).
+This effect was simulated with Voronoi tessellation. Visualization was implemented in [p5.js](https://p5js.org/) and [three.js](https://threejs.org/). This visualization has more color themes. One is picked at random at the start of the visualization.
 
-Visualization is available [here](https://metaviz-code.netlify.app/src/crown-shyness/7/index.html). This visualization has more color themes. One is picked at random at the start of the visualization.
+|                                           Final version                                           |
+|:-------------------------------------------------------------------------------------------------:|
+| {{< figure src="/images/cs/5.gif" alt="crown shyness" width="450px" class="content-img-center">}} |
+|    [live visualization](https://metaviz-code.netlify.app/src/crown-shyness/7/index.html)         |
+|     [source code](https://github.com/hoskra/metaviz/tree/main/src/crown-shyness/7)             |
 
-{{< figure src="/images/cs/5.gif" alt="crown shyness" width="450px" class="content-img-center">}}
+
+
+
+
 
 ### Description
 
@@ -40,7 +47,7 @@ This visualization had more iterations. versions 1 and two were implemented usin
 |Version 1 | Version 2 |
 |:---:|:---:|
 | {{< figure src="/images/cs/v1.png" alt="crown shyness" width="300px" class="content-img">}}   |  {{< figure src="/images/cs/2.gif" alt="crown shyness" width="300px" class="content-img">}} |
-| [online](https://metaviz-code.netlify.app/src/crown-shyness/1.html)   | [online](https://metaviz-code.netlify.app/src/crown-shyness/2.html)  |
+| [live visualization](https://metaviz-code.netlify.app/src/crown-shyness/1.html)   | [live visualization](https://metaviz-code.netlify.app/src/crown-shyness/2.html)  |
 | [source code](https://github.com/hoskra/metaviz/blob/main/src/crown-shyness/1.html)| [source code](https://github.com/hoskra/metaviz/blob/main/src/crown-shyness/2.html)|
 
 Versions 3 and 4 implemented in *Three.js*.
@@ -48,8 +55,8 @@ Versions 3 and 4 implemented in *Three.js*.
 |Version 1 | Version 2 |
 |:---:|:---:|
 |{{< figure src="/images/cs/3.gif" alt="crown shyness" width="300px" class="content-img">}}  | {{< figure src="/images/cs/4.gif" alt="crown shyness" width="300px" class="content-img">}} |
-| [online](https://metaviz-code.netlify.app/src/crown-shyness/5.html)| [online](https://metaviz-code.netlify.app/src/crown-shyness/6.html)  |
-| [source code](https://github.com/hoskra/metaviz/blob/main/src/crown-shyness/5.html)| [source code](https://github.com/hoskra/metaviz/blob/main/src/crown-shyness/6/index.html)|
+| [live visualization](https://metaviz-code.netlify.app/src/crown-shyness/5.html)| [live visualization](https://metaviz-code.netlify.app/src/crown-shyness/6.html)  |
+| [source code](https://github.com/hoskra/metaviz/blob/main/src/crown-shyness/5.html)| [source code](https://github.com/hoskra/metaviz/blob/main/src/crown-shyness/6)|
 
 
 
