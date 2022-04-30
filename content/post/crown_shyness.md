@@ -2,6 +2,7 @@
 title = "Crown Shyness"
 description = "Crown Shyness visualization using Voronoi tessellation"
 header_image = "images/cc3.png"
+showToc = true
 +++
 
 <!--more-->
@@ -21,7 +22,7 @@ This effect was simulated with Voronoi tessellation. Visualization was implement
 
 |                                           Final version                                           |
 |:-------------------------------------------------------------------------------------------------:|
-| {{< figure src="/images/cs/5.gif" alt="crown shyness" width="450px" class="content-img-center">}} |
+| {{< figure src="/images/cs/5.gif" alt="crown shyness" width="700px" class="content-img-center">}} |
 |    [live visualization](https://metaviz-code.netlify.app/src/crown-shyness/7/index.html)         |
 |     [source code](https://github.com/hoskra/metaviz/tree/main/src/crown-shyness/7)             |
 

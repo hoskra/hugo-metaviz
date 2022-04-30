@@ -2,6 +2,8 @@
 title = "Video Textures"
 description = "Video Textures visualization"
 header_image = "images/vt/vt2.png"
+math = true
+showToc = true
 +++
 
 <!--more-->
