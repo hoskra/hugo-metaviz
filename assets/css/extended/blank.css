@@ -45,6 +45,7 @@ body:not(.dark) .article-container {
   border: 0;
   border-radius: 0;
   background-size: cover;
+  background-position: center;
 }
 
 .post-entry:hover {

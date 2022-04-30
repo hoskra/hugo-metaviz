@@ -131,7 +131,7 @@ This [example](https://editor.p5js.org/hoskra/sketches/UcEISwlTw) can maybe make
 
 ### Complete visualization
 
-Visualization is using functions `drawHexagon()`, `drawEyes()` and `drawEyelids()` explained above. Shapes are drawn to form a hexagon grid.
+Visualization is using functions `drawHexagon()`, `drawEyes()` and `drawEyelids()` described above. Shapes are drawn to form a hexagon grid.
 
 
 ```js
