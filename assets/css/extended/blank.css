@@ -63,3 +63,11 @@ body:not(.dark) .article-container {
 .content-img-right img{
   float: right;
 }
+
+.toc details summary {
+  cursor: pointer;
+}
+
+.toc details[open] summary {
+  cursor: pointer;
+}
